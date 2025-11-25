@@ -1,1 +1,13 @@
+Data Folder Overview
 
+This folder contains the datasets used throughout the Delta Live Tables (DLT) pipeline.
+
+Initial input data — raw CSV files representing Customers, Products, Stores, and Sales used for Bronze layer ingestion.
+
+Update datasets — additional CSV files designed to simulate real-world changes in source systems. These are used to demonstrate:
+
+SCD Type 2 dimensional tracking in Gold layer tables
+
+Upserts (Merge/CDC) into Silver streaming tables
+
+All files are used to validate ingestion, transformation logic, incremental processing, and automated Change Data Capture within the pipeline.
